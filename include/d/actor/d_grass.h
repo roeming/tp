@@ -96,7 +96,7 @@ public:
     /* 0x1D6E4 */ Vec* mp_pos;
     /* 0x1D6E8 */ Vec* mp_normal;
     /* 0x1D6EC */ GXColor* mp_colors;
-    /* 0x1D6F0 */ Vec* mp_texCoords;
+    /* 0x1D6F0 */ f32* mp_texCoords;
     /* 0x1D6F4 */ u8* mp_kusa9q_DL;
     /* 0x1D6F8 */ u32 m_kusa9q_DL_size;
     /* 0x1D6FC */ u8* mp_kusa9q_14_DL;
