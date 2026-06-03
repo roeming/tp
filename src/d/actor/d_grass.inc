@@ -544,7 +544,7 @@ void dGrass_packet_c::draw() {
     GXSetArray(GX_VA_POS, mp_pos, sizeof(Vec));
     GXSetArray(GX_VA_NRM, mp_normal, sizeof(Vec));
     GXSetArray(GX_VA_CLR0, mp_colors, sizeof(GXColor));
-    GXSetArray(GX_VA_TEX0, mp_texCoords, sizeof(f32) * 2);
+    GXSetArray(GX_VA_TEX0, mp_texCoords, sizeof(f32[2]));
 
     GXColorS10 spA0 = {0, 0, 0, 0};
     GXColorS10 sp98 = {0, 0, 0, 0};

@@ -396,7 +396,7 @@ void daMant_packet_c::draw() {
 
     GXSetArray(GX_VA_POS, this->getPos(), sizeof(cXyz));
     GXSetArray(GX_VA_NRM, this->getNrm(), sizeof(cXyz));
-    GXSetArray(GX_VA_TEX0, l_texCoord, sizeof(f32) * 2);
+    GXSetArray(GX_VA_TEX0, l_texCoord, sizeof(f32[2]));
 
     GXSetZCompLoc(0);
     GXSetZMode(GX_ENABLE, GX_LEQUAL, GX_ENABLE);

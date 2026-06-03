@@ -276,7 +276,7 @@ void FlagCloth_c::draw() {
     GXSetVtxAttrFmt(GX_VTXFMT0, GX_VA_TEX0, GX_CLR_RGBA, GX_F32, 0);
     GXSetArray(GX_VA_POS, getPos(), sizeof(cXyz));
     GXSetArray(GX_VA_NRM, getNormal(), sizeof(cXyz));
-    GXSetArray(GX_VA_TEX0, mpTexCoord, 8);
+    GXSetArray(GX_VA_TEX0, mpTexCoord, sizeof(f32[2]));
     GXSetZCompLoc(GX_FALSE);
     GXSetZMode(GX_TRUE, GX_LEQUAL, GX_TRUE);
     GXLoadTexObj(&mTexObj, GX_TEXMAP0);
