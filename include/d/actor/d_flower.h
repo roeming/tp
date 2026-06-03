@@ -94,7 +94,7 @@ public:
     /* 0x12A1C */ cXyz m_playerSwordTop;
     /* 0x12A28 */ Vec* mp_pos;
     /* 0x12A2C */ GXColor* mp_colors;
-    /* 0x12A30 */ Vec* mp_texCoords;
+    /* 0x12A30 */ f32* mp_texCoords;
     /* 0x12A34 */ u8* mp_mat2DL;
     /* 0x12A38 */ u32 m_mat2DL_size;
     /* 0x12A3C */ u8* mp_mat2Light4DL;
